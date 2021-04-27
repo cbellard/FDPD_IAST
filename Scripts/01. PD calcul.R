@@ -19,7 +19,6 @@ library(vegan)
 library(nlme)
 library(picante)
 
-#setwd("D:/Documents/Projets/ImpactTPF/")
 #phylogeny from Faurby and Svenning - Complete phylogeny of mammals
 phylo2 <- read.nexus("./data/mammals/Complete_phylogeny_Phylacine.nex")
 sp<-readRDS(file = "./data/spPhyloMammals.rds")

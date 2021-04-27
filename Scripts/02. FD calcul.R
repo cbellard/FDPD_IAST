@@ -3,7 +3,7 @@ rm(list=ls())
 #####################################################################################################################################
 ################"Looming extinctions due to invasive species: Irreversible loss of ecological strategy and evolutionary history"#####
 #####################################################################################################################################
-#author: Céline Bellard
+#author: CÃ©line Bellard
 
 ###############################################
 ###############################################
@@ -21,8 +21,6 @@ source("FE_metrics.R")
 source("quality_funct_space.R")
 source("plot_funct_space.R")
 source("multidimFD.R")
-
-#setwd("D:/Documents/Projets/ImpactTPF2/")
 
 traits_f<-readRDS(file = "./data/traits_f.rds")
 presence<-readRDS(file = "./data/presenceMammalsEcosyt.rds")
